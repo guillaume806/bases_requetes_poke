@@ -1,4 +1,4 @@
-// Fonction pour obtenir les informations requises d'un Pokémon
+
 async function getPokemonDetails(data, speciesData) {
     const name = data.name;
     const types = data.types.map(type => type.type.name).join(', ');
