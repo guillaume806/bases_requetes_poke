@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const pokemonInfo = document.getElementById('pokemonInfo');
     let currentPokemonId = 1;
 
-// ...
 
     async function loadPokemonData(id) {
         try {
@@ -27,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-// ...
+
 
 
     loadPokemonData(currentPokemonId);

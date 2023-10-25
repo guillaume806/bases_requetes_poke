@@ -22,10 +22,9 @@ async function getPokemonDetails(data, speciesData) {
     return pokemonDetails;
 }
 
-// ...
 
 
-// Fonction pour obtenir le nom en français depuis le tableau de noms
+
 function getFrenchName(names) {
     for (const nameData of names) {
         if (nameData.language.name === "fr") {
