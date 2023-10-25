@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Demo_Serveur_API">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Demo_Serveur_API.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
